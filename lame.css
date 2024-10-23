@@ -17,7 +17,7 @@ body {background-color: lightsteelblue;}
         margin-top: 500px;}
 #menu { position: sticky;
     float: left;
-    border: solid, navy, thick;
+    border: solid navy thick;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -39,7 +39,7 @@ body {background-color: lightsteelblue;}
     .gallery img {
         width: 100%;
         height: auto;}
-#centered-text {position:left;
+#centered-text {margin: auto;
                 text-align: center;
                 padding-left: 170px;}
 #below-centered {text-align: center;
@@ -56,13 +56,12 @@ p  {color: black;
     font-family:Arial, Helvetica, sans-serif;}
 div {width: 100%;
     height: fit-content;
-    vertical-align: auto;
     margin: auto;}
 table {margin: auto;
-    border: solid, indigo;
+    border: solid indigo;
     border-collapse: collapse;}
 table img {width: 100px;}
-table td {border: solid, indigo;
+table td {border: solid indigo;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 10px;
